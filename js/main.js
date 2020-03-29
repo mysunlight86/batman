@@ -10,7 +10,7 @@ $(document).ready(function () {
         let activeContent = $(this).attr('href');
         $('.visible').toggleClass('visible');
         $(activeContent).toggleClass('visible');
-        $('tabs-item-active').toggleClass('tabs-item-active');
+        $('.tabs-item-active').toggleClass('tabs-item-active');
         $(this).toggleClass('tabs-item-active');
     });
 });
